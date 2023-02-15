@@ -4,29 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>Home page</title>
+    <style>
+       *{
+            padding: 5px;
+            margin: 5px;
+        }
+       #container{
+        margin-left: 500px;
+       }
+    </style>
 </head>
-<body bgcolor="silver">
-    <h1>Home Page</h1>
-    <hr/>
-    <div>CVR College of Engineering
-        The Cherabuddi Education Society was registered in January 1999 as an NRI-promoted society. The Society  aims at creating a state-of-the-art engineering institution in association with leading NRI technology professionals and well-known academicians of the twin states of Telangana & Andhra Pradesh.  The Society aims to harness technical excellence with a commitment to the ethos of 'useful learning'. </div>
-
-        <div align="center">Profile of Me<br/>
-    <a align="center" href="file:///D:/20B81A0569/Lab-1/Profile.html" target="_blank">Profile</a>
-</div><br/>
-<div align="center">About our College<br/>   
-<a align="center" href="file:///D:/20B81A0569/Lab-2/AboutUs.html" target="_blank ">About Us</a>
-</div>  <br/>
-<div align="center">How To Contact Us<br/>
-    <a href="file:///D:/20B81A0569/Lab-2/ContactUs.html" target="_blank">Contact Us</a>
-</div>   <br/>
-<div align="center">Login Portal<br/>
-    <a href="file:///D:/20B81A0569/Lab-2/Login.html" target="_blank">Login</a>
-</div>   <br/>
-<div align="center">Registration Portal<br/>
-    <a href="file:///D:/20B81A0569/Lab-2/Register.html" target="_blank">Register</a>
-</div>
-    <script src="../WELAB569/abc.js"></script>
+<body>
+    <div id="container">
+        <h1>Weather today</h1>
+        <input type="text" id="cityname">
+        <br>
+        <button onclick="getinfo()">Submit</button>
+    </div>
+    <p id="resultspace">Temperature in celsius</p>
+    <script src="script1.js"></script>
 </body>
 </html>
